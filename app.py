@@ -11,7 +11,7 @@ password = os.getenv("PASSWORD")
 
 @app.route("/")
 def index():
-    return f'{cred}\n\n\n\n\n\n{password}'
+    return f'{cred}'
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
