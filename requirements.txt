@@ -1,2 +1,3 @@
-Flask
-gunicorn
+flask
+firebase-admin
+google-cloud-storage
