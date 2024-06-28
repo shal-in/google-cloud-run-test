@@ -41,7 +41,7 @@ def add_data(number):
     blob = bucket.blob(f'{data_key}.txt')
     blob.upload_from_string(f'This is example {number}.')
 
-    return jsonify({"message": "success"})
+    return jsonify({"messages": "success"})
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8080))
